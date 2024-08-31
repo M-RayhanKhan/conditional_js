@@ -27,12 +27,12 @@ else{
 
 // ------------ COMPLEX CONDITION ------------//
 
-// if ((salary > 30000 && hasCar == true) || isBCS == true) {
-//     console.log('jao tomar biye hobe');
-// }
-// else{
-//     console.log('tomar biye hove na');
-// }
+if ((salary > 30000 && hasCar == true) || isBCS == true) {
+    console.log('jao tomar biye hobe');
+}
+else{
+    console.log('tomar biye hove na');
+}
 
 if ((salary > 30000 || hasCar == true) && isBCS == true) {
     console.log('jao tomar biye hobe');
